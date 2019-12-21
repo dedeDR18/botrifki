@@ -1,0 +1,26 @@
+{
+    "name": "Kiwari Chatbot Sample",
+    "description": "Kiwari chatbot webhook method with PHP.",
+    "authors": [
+        {
+            "name": "Kiwari Chat",
+            "email": "info@kiwari.chat"
+        },
+        {
+            "name": "Iskandar Suhaimi",
+            "email": "hello@iskandarsuhaimi.com"
+        }
+    ],
+    "require": {
+        "mashape/unirest-php": "3.*"
+    },
+    "autoload": {
+        "psr-4": { 
+            "": "app/" 
+        }
+    },
+    
+    "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
+  }
+}    
